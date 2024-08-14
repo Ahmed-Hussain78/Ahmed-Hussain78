@@ -23,7 +23,7 @@
   <br>
   💻 I love writing code and learn anythings about it
   <br>
-  💬 Ask me anything about from <a href="https://github.com/zumrudu-anka/zumrudu-anka/issues" title="Issues">Here</a>
+  💬 Ask me anything about from <a href="https://github.com/Ahmed-Hussain78/Ahmed-Hussain78/issues" title="Issues">Here</a>
   <br>
   📫 How to reach me: <a href="mailto: ah1482006@gmail.com">ah1482006@gmail.com</a>
 </p>
