@@ -1,4 +1,4 @@
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=zumrudu-anka.zumrudu-anka">
+
 
 <h1 align="center">
   <a href="https://git.io/typing-svg">
@@ -46,6 +46,7 @@
   <code><img title="GitHub" height="25" src="images/github.svg"></code>
   <br>
   <code><img title="Problem Solving" height="25" src="images/problemSolving.png"></code>
+  <code><img title="Logic Building" height="25" src="images/problemSolving.png"></code>
 </p>
 <hr>
 
