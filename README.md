@@ -23,7 +23,7 @@
   <br>
   💞️ I’m looking to collaborate on Projects
   <br>
-  💻 I love writing code and learn anythings about it
+  💻 Ambitious to Become a Full-Stack Developer
   <br>
   ⚡ Fun fact: I Am Batman
   <br>
