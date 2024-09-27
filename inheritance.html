@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        class A{
+            constructor(uname,age,salary){
+                this.name = uname;
+                this.age = age;
+                this.salary = salary
+                console.log("constructor property")
+            }
+            info(){
+                document.write(`<h2>CEO iNFO</h2>
+                <br>${this.name}
+                <br>${this.age}
+                <br>${this.salary}
+                `)
+            }
+        }
+        class B extends A{
+            info(){
+                document.write(`<h2>Manager iNFO</h2>
+                <br>${this.name}
+                <br>${this.age}
+                <br>${this.salary}
+                `)
+            }
+        }
+        class C extends B{
+
+        }
+
+        // create obj of class
+        let obj1 = new C("Faraz",20,60000);
+        // create Method
+        obj1.info();
+        let obj2 = new A("Ahmed",20,50000);
+        obj2.info()
+    </script>
+</body>
+</html>

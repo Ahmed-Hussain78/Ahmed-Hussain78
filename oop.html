@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="color">
+
+<!-- <button id="color" onclick="a.red('red')">Red</button>
+<button id="color" onclick="a.blue('green')">Blue</button>
+<button id="color" onclick="a">Green</button> -->
+
+
+    <button onclick="colorChanger.changeColor('red')">Red</button>
+    <button onclick="colorChanger.changeColor('blue')">Blue</button>
+    <button onclick="colorChanger.changeColor('green')">Green</button>
+    <script>
+                class ColorChanger {
+            constructor(bodyId) {
+                this.body = document.getElementById(bodyId);
+            }
+
+            changeColor(color) {
+                this.body.style.color = color;
+            }
+        }
+
+        // Create an instance of ColorChanger for the button with ID 'color'
+        const colorChanger = new ColorChanger('color');
+
+        // class colour{
+        //     red(){
+        //         onclick="document.getElementById('color').style.color ='red'"
+        //     }
+        //     blue(){
+        //         onclick="document.getElementById('color').style.color ='blue'"
+        //     }
+        //     green(){
+        //         onclick="document.getElementById('color').style.color ='green'"
+        //     }
+
+        // }
+        // let a = new colour();
+        // a.colour();
+
+
+        // class Hello{
+        //     // property
+        //     name = "Saad"; 
+
+        //     // method
+        //     world(){
+        //         console.log("Hi"+" "+this.name);
+        //     }
+        //     static lab201(){
+        //         console.log("This is Lab 201");
+        //     }
+        //     constructor(){
+        //         console.log("Welcome")
+        //     }
+        // }
+
+        // // object of class Hello
+        // let a = new Hello();
+        // // call
+        //  a.world();
+
+        //  Hello.lab201();
+    </script>
+</body>
+</html>
