@@ -12,7 +12,7 @@
 </h5>
 <br>
 <p align="center">
-  Hi, I'm Ahmed Hussain, Front-End Developer from Pakistan
+  Hi, I'm Ahmed Hussain, Back-End Developer from Pakistan
   <br>
   <br>
   🔬 I'm currently studying Software Engineering at Aptech Learning Institute.
