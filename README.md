@@ -17,7 +17,7 @@
   <br>
   🔬 I'm currently studying Software Engineering at Aptech Learning Institute.
   <br>
-  🎓 I graduated from Sindh Muslim Govt Science College, Field of Pre-Engineering (Undergraduate)
+  🎓 I graduated from Sindh Muslim Govt Science College, Field of Pre-Engineering
   <br>
   🎓 I graduated from DHACSS Shaikh Khalifa Bin Zayed Campus
   <br>
