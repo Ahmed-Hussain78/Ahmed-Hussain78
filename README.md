@@ -31,6 +31,67 @@
 </p>
 
 <hr>
+
+## 📊 MCQ Score Calculator
+
+A small command-line utility to calculate and display your MCQ exam score summary — with optional negative marking.
+
+### Requirements
+- Python 3.x (no extra packages needed)
+
+### Usage
+
+```
+python score.py <correct> <wrong> [--total N] [--negative PENALTY]
+```
+
+| Argument | Description | Default |
+|---|---|---|
+| `correct` | Number of correct answers | *(required)* |
+| `wrong` | Number of wrong answers | *(required)* |
+| `--total N` | Total number of questions | `correct + wrong` |
+| `--negative PENALTY` | Marks deducted per wrong answer | `0` |
+
+### Example runs
+
+```
+$ python score.py 33 5
+======================================
+       MCQ SCORE SUMMARY
+======================================
+  Correct answers : 33
+  Wrong answers   : 5
+  Skipped         : 0
+  Total questions : 38
+--------------------------------------
+  Raw marks       : 33.00
+  Final marks     : 33.00
+  Percentage      : 86.84%
+======================================
+
+$ python score.py 33 5 --total 40 --negative 0.25
+======================================
+       MCQ SCORE SUMMARY
+======================================
+  Correct answers : 33
+  Wrong answers   : 5
+  Skipped         : 2
+  Total questions : 40
+--------------------------------------
+  Raw marks       : 33.00
+  Penalty (-0.25 x 5) : -1.25
+  Final marks     : 31.75
+  Percentage      : 79.38%
+======================================
+```
+
+### Running the tests
+
+```
+python -m unittest test_score -v
+```
+
+<hr>
 <h2 align="center">🔥 Languages & Frameworks & Tools & Abilities 🔥</h2>
 <br>
 <p align="center">
